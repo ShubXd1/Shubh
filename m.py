@@ -8,10 +8,10 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7229974719:AAEoIt2SV7eC_5KR4T-u60hXKAa3djg15pQ')
+bot = telebot.TeleBot('7366658038:AAFVsvQOmHMyEHBz_8Kq5ojrS8oMdmH0yrA')
 
 # Admin user IDs
-admin_id = ["1786683163","6758082727"]
+admin_id = ["1786683163","6342043620"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username},🔱 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 🔱.\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: BGMI\nBy MATRIX @nandyadu1c 🎯"
+    response = f"{username},🔱 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 🔱.\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: BGMI\nBy @shub_duggal🎯"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -321,7 +321,7 @@ def welcome_plan(message):
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
 Vip :
--> Attack Time : 240 (S) ✴️
+-> Attack Time : 600 (S) ✴️
 > After Attack Limit : 05 seconds ✴️
 -> Concurrents Attack : 300✴️
 
